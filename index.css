@@ -1,11 +1,66 @@
+
+
+@media screen and (min-width: 1000px) {
+    body {
+        margin: 0;
+    }
+    
+    /* changed away from center alignment to left 
+    justified. Ideally it would be centered over 2nd 3rd*/
+    header {
+        text-align: left justify;
+    }
+    
+    }
+    .lb1-background {
+        background: #26D0E8;
+    }
+    .lb2-background {
+        background: #5ED3CC;
+    }
+    .lb3-background {
+        background: #70A7FA;
+    }
+    
+    .case {
+        width: calc(100% - 150px - 35px);
+        margin-bottom: 10px;
+        padding: 35px;
+    }
+    
+    .case-image {
+        height: 120px;
+        width: 150px;
+        background: #D9D9D9;
+    }
+    
+    .case-image-left {
+        margin-left: 150px;
+    }
+    .case-image-left .case-image {
+        margin-left: calc(-75px + -35px);
+    }
+    .case-image-right {
+        margin-right: 150px;
+    }
+    .case-image-right .case-image {
+        margin-left: auto;
+        margin-right: calc(-75px + -35px);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+   
 body {
     margin: 0;
 }
-
+/* changed away from center alignment to left 
+justified. Ideally it would be centered over 2nd 3rd*/
 header {
-    text-align: center;
+    text-align: left justify;
 }
 
+}
 .lb1-background {
     background: #26D0E8;
 }
@@ -41,3 +96,4 @@ header {
     margin-left: auto;
     margin-right: calc(-75px + -35px);
 }
+} 
